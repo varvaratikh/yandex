@@ -1,9 +1,3 @@
-import React from 'react';
-
 export const App = () => {
-  return (
-    <div>
-
-    </div>
-  );
-}
+  return <p>Hello,world</p>;
+};
