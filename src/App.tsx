@@ -4,9 +4,8 @@ export const App = () => {
   return (
     <>
       <Button
-        backgroundColor="#FFD11C"
-        borderColor="#FFD11C"
-        textColor="#141414"
+        backgroundColor="var(--yellow)"
+        textColor="var(--black)"
         margin="10px"
         padding="15px 30px"
       >
@@ -14,9 +13,9 @@ export const App = () => {
       </Button>
 
       <Button
-        backgroundColor="transparent"
-        borderColor="#F7F9FB"
-        textColor="#F7F9FB"
+        backgroundColor="var(--transparent)"
+        borderColor="var(--light-gray)"
+        textColor="var(--light-gray)"
         margin="10px"
         padding="20px 52px"
       >

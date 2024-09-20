@@ -11,7 +11,7 @@ interface ButtonProps {
 
 export const Button: React.FC<ButtonProps> = ({
   backgroundColor,
-  borderColor = "transparent",
+  borderColor,
   textColor,
   margin = "0",
   padding = "10px 20px",
