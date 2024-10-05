@@ -27,8 +27,7 @@ export const Button: React.FC<ButtonProps> = ({
         border: `1px solid ${borderColor}`,
         borderRadius: "20px",
         cursor: "pointer",
-        height: "63px",
-        fontSize: "18px",
+        fontSize: "15px",
         fontWeight: "500",
       }}
     >

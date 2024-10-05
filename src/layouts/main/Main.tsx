@@ -1,11 +1,11 @@
 import React from "react";
-
-import styles from "./main.module.sass";
+import { Header } from "../../components/header/Header";
 
 export const Main = () => {
   return (
-    <header className={styles.header}>
-      <p>AdRabbit</p>
-    </header>
+    <div>
+      <Header />
+      {/*<img src={back} className={styles}*/}
+    </div>
   );
 };
