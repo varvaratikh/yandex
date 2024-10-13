@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: Yandex Sans Text;
+  src: url(/assets/YandexSansDisplay-Regular-DdiC5D74.ttf) format("truetype");
+}
+._header_jx1ve_5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #001f60;
+  font-family:
+    Yandex Sans Text,
+    serif;
+}
+._logo_jx1ve_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #f7f9fb;
+}
+._nav_jx1ve_22 {
+  flex-grow: 1;
+  margin-left: 70px;
+}
+._menu_jx1ve_27 {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+._menu_jx1ve_27 li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+._buttons_jx1ve_40 {
+  display: flex;
+  gap: 15px;
+}
+._loginBtn_jx1ve_45:hover,
+._registerBtn_jx1ve_45:hover {
+  opacity: 0.8;
+}
+:root {
+  --yellow: #ffd11c;
+  --black: #141414;
+  --white: #ffffff;
+  --light-gray: #f7f9fb;
+  --transparent: transparent;
+}
