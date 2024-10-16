@@ -10,6 +10,7 @@ import four from "../../assets/image/icons/computer-svgrepo-com.png";
 
 export const Ad = () => {
   return (
+    // TODO: `на части мотетизации, когда все фолдеры раскрты, то это заходит на эту часть. Нужно чтобы это все логично смещалось вверх/вниз при закрытии/раскрытии всех этих фолдеров`
     <div className={style.ad_container}>
       <p id="formats" className={style.ad_text}>
         Реклама, которую вы cможете создать
@@ -49,7 +50,7 @@ export const Ad = () => {
         <div className={style.small_containers_second}>
           <img src={four} className={style.photo} />
           <p className={style.text_main}>Видеореклама</p>
-          <p className={style.text}>Видео в баннере, InPage, InStream.</p>
+          <p className={style.text_2}>Видео в баннере, InPage, InStream.</p>
         </div>
       </div>
     </div>
