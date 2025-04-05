@@ -10,7 +10,6 @@ import four from "../../assets/image/icons/computer-svgrepo-com.png";
 
 export const Ad = () => {
   return (
-    // TODO: `на части мотетизации, когда все фолдеры раскрты, то это заходит на эту часть. Нужно чтобы это все логично смещалось вверх/вниз при закрытии/раскрытии всех этих фолдеров`
     <div className={style.ad_container}>
       <p id="formats" className={style.ad_text}>
         Реклама, которую вы cможете создать
