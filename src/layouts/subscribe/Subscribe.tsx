@@ -4,7 +4,7 @@ import back from "../../assets/image/background/back.png";
 
 export const Subscribe = () => {
   return (
-    <div className={style.wrapper}>
+    <div id="partners" className={style.wrapper}>
       <img src={back} className={style.back_image} alt="background" />
       <div className={style.content}>
         <div className={style.left}>
